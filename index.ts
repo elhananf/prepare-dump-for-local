@@ -10,6 +10,7 @@ program
   .version(version)
   .argument('inputPath')
   .argument('outputPath')
+  .showHelpAfterError()
   .action(
     (inputPath, outputPath) =>
       new Promise((resolve, reject) => {
