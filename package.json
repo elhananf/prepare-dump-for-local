@@ -1,5 +1,7 @@
 {
   "name": "prepare-dump-for-local",
+  "version": "0.1.0",
+  "description": "Prepares PostgreSQL text format database dumps for local restoration",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
@@ -7,5 +9,8 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
   }
 }
